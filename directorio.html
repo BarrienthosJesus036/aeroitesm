@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+       <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Vuela con AC con sus precios bajos</title>
+
+              <!-- Importacion para estilos CSS -->
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+              <link
+              rel="stylesheet" href="./css/main.css"/>
+
+              <!-- Importacion para los Scripts -->
+              <script src="./js/main.js"></script>
+       </head>
+       <body>
+              <header>
+                     <div class="container content-nav">
+                            <a href="#"><img src="./resources/icons/icon_main.png" alt="Aerolinea Contigo"></a>
+                            <nav class="menu">
+                                   <ul>
+                                          <li><a href="./index.html">Inicio</a></li>
+                                          <li><a href="./directorio.html">Buscador</a></li>
+                                          <li><a href="./promociones.html">Promociones</a></li>
+                                          <li><a href="./login.html" class="ic-text"><i class="bi bi-person-circle"></i><p>Login</p></a></li>
+                                          <li><a href="#" data-menu="false" id="mode_page"><i class="bi bi-moon-fill"></i></a></li>
+                                   </ul>
+                            </nav>
+                            <div id="menu">
+                                   <i class="bi bi-list"></i>
+                            </div>
+                     </div>
+              </header>
+              <div class="main container">
+                     <div class="dir">
+                            <div class="header-dir">
+                                   <div class="nav-dir">
+                                          <a href="#">Aerolineas contigo</a> <code>></code> 
+                                          <a href="#">Vuelos</a> <code>></code> 
+                                          <a href="#">Ciudad de Mexico</a> <code>></code> 
+                                          <a href="#">Acapulco de Juarez</a>
+                                   </div>
+                                   <a href="#">
+                                          <img src="./resources/images/banner-dir.jpg" alt="">
+                                   </a>
+                            </div>
+                            <div>
+                                   <form action="#" class="form_dir">
+                                          <h2>Vuelos</h2>
+                                          <div>
+                                                 <div class="options1-dir">
+                                                        <h3>Modalidad de vuelo</h3>
+                                                        <div>
+                                                               <div>
+                                                                      <input type="radio" name="viaje" id="_v_r" checked>
+                                                                      <label for="_v_r">Viaje Redondo</label>
+                                                               </div>
+                                                               <div>
+                                                                      <input type="radio" name="viaje" id="_v_s">
+                                                                      <label for="_v_s">Viaje Sencillo</label>
+                                                               </div>
+                                                        </div>
+                                                 </div>
+       
+                                                 <div class="options2-dir">
+                                                        <div>
+                                                               <h4>Origen</h4>
+                                                               <div>
+                                                                      <input list="vuelos1">
+                                                                      <datalist id="vuelos1">
+                                                                             <option value="Acapulco de Juarez"></option>
+                                                                             <option value="Victoria de Durango"></option>
+                                                                             <option value="San Marcos"></option>
+                                                                      </datalist>
+                                                                      <i class="bi bi-airplane-fill"></i>
+                                                               </div>
+                                                        </div>
+                                                        <div>
+                                                               <h4>Destino</h4>
+                                                               <div>
+                                                                      <input list="vuelos1">
+                                                                      <datalist id="vuelos1">
+                                                                             <option value="Acapulco de Juarez"></option>
+                                                                             <option value="Victoria de Durango"></option>
+                                                                             <option value="San Marcos"></option>
+                                                                      </datalist>
+                                                                      <i class="bi bi-airplane-fill"></i>
+                                                               </div>
+                                                        </div>
+                                                        <div>
+                                                               <h4>Fecha Salida</h4>
+                                                               <div>
+                                                                      <input type="date" name="" id="">
+                                                               </div>
+                                                        </div>
+                                                        <div>
+                                                               <h4>Fecha Regreso</h4>
+                                                               <div>
+                                                                      <input type="date" name="" id="">
+                                                               </div>
+                                                        </div>
+                                                        <div>
+                                                               <h4>Personas</h4>
+                                                               <div>
+                                                                      <input type="number" name="" id="" min="1" max="10">
+                                                                      <i class="bi bi-people-fill"></i>
+                                                               </div>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-blue">Buscar</button>
+                                                 </div>
+                                          </div>
+                                   </form>
+                            </div>
+                            <div class="cards-buscador">
+                                   <a href="#">
+                                          <img src="./resources/images/aeromexico.png" alt="">
+                                          <div>
+                                                 <div>
+                                                        <h3>Viaje de Ida <span>MEX-ACA</span></h3>
+                                                        <p>dom. 29 ene. 2023</p>
+                                                        <p>18:30 - <span>Directo</span></p>
+                                                 </div>
+                                                 <div>
+                                                        <h3>Viaje Vuelta <span>ACA-MEX</span></h3>
+                                                        <p>sáb. 11 feb. 2023</p>
+                                                        <p>18:30 - <span>Directo</span></p>
+                                                 </div>
+                                                 <div>
+                                                        <p>10 dias</p>
+                                                 </div>
+                                          </div>
+                                          <div>
+                                                 <span>Desde</span>
+                                                 <p>$ 2,100.00 MXN</p>
+                                          </div>
+                                   </a>
+                                   
+                            </div>
+                     </div>
+              </div>
+              <footer>
+                     <div class="container content-nav footer">
+                            <div>
+                                   <h3>Información Legal</h3>
+                                   <ul>
+                                          <li><a href="./terminos.html">Terminos y condiciones</a></li>
+                                          <li><a href="./privacidad.html">Aviso de privacidad</a></li>
+                                   </ul>
+                            </div>
+                            <div>
+                                   <h3>Atención al Cliente</h3>
+                                   <ul>
+                                          <li><a href="./sucursales.html">Nuestras Sucursales</a></li>
+                                   </ul>
+                            </div>
+                            <div>
+                                   <h3>Redes Sociales</h3>
+                                   <ul class="socials">
+                                          <li>
+                                                 <a href="#">
+                                                        <i class="bi bi-facebook"></i>
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a href="#">
+                                                        <i class="bi bi-youtube"></i>
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a href="#">
+                                                        <i class="bi bi-instagram"></i>
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a href="#">
+                                                        <i class="bi bi-twitter"></i>
+                                                 </a>
+                                          </li>
+                                   </ul>
+                            </div>
+                     </div>
+              </footer>
+       </body>
+</html>
